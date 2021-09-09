@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Main {
+    
+    static Scanner keyboard = new Scanner(System.in);
+    public static void main(String[] args) {
+        
+    //declare and initialize working storage
+    int a = keyboard.nextInt();
+    int b = keyboard.nextInt();
+
+        System.out.print(a + b);
+    }
+}
